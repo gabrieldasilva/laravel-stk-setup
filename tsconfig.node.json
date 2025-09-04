@@ -1,0 +1,29 @@
+{
+    "extends": "@tsconfig/node22/tsconfig.json",
+    "compilerOptions": {
+        // Project
+        "composite": true,
+        "baseUrl": ".",
+
+        // Strictness & type checking
+        "skipLibCheck": true,
+
+        // Emit / module behaviour
+        "noEmit": true,
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+
+        // Types
+        "types": ["node"]
+    },
+    "include": [
+        "vite.config.*",
+        "vitest.config.*",
+        "cypress.config.*",
+        "nightwatch.config.*",
+        "tailwind.config.*", // uncomment if using tailwindcss < 4
+        "postcss.config.*", // uncomment if using postcss
+        "eslint.config.*"
+    ]
+}
