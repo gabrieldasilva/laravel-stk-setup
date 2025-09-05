@@ -1,0 +1,10 @@
+# Ignore artifacts
+/node_modules
+/public/build/
+/public/hot
+/public/images
+/storage
+/vendor
+/.idea
+/resources/js/components/ui/*
+resources/views/mail/*
