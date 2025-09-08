@@ -1,11 +1,15 @@
 /*
-* Project specific types and definitions
-*
-* e.g.
-* export interface User {
-*   id: number;
-*   name: string;
-*   email: string;
-*   avatar?: string;
-* }
-* */
+ * Project specific types and definitions
+ *
+ * e.g.
+ * export interface User {
+ *   id: number;
+ *   name: string;
+ *   email: string;
+ *   avatar?: string;
+ * }
+ * */
+export interface HelloProps {
+    msg: string
+    count?: number
+}

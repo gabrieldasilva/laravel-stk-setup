@@ -6,8 +6,6 @@
     "htmlWhitespaceSensitivity": "css",
     "printWidth": 100,
     "trailingComma": "none",
-    "sortTailwindcssClasses": true,
-    "noPhpSyntaxCheck": false,
     "tabWidth": 4,
     "plugins": [
         "prettier-plugin-organize-imports",

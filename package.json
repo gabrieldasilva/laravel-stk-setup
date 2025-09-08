@@ -8,7 +8,7 @@
         "preview": "vite preview",
         "type-check": "vue-tsc --noEmit",
         "format": "prettier --write resources/",
-        "format:check": "prettier --check resources/",
+        "format:check": "prettier --check resources/ --debug-check",
         "lint": "eslint . --fix"
     },
     "devDependencies": {

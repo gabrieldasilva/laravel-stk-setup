@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
-import {onMounted} from "vue";
+import { onMounted } from 'vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 onMounted(() => {
-    console.log('Hello from Vue 3 + Typescript + Vite + Laravel');
+    console.log('Hello from Vue 3 + Typescript + Vite + Laravel')
 })
 </script>
 
@@ -13,6 +13,9 @@ onMounted(() => {
             Hello from Vue 3 + Typescript + Vite + Laravel
         </h1>
 
-        <HelloWorld msg="Team!" :count="1" />
+        <HelloWorld
+            msg="Team!"
+            :count="1"
+        />
     </main>
 </template>
