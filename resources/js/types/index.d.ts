@@ -9,7 +9,9 @@
  *   avatar?: string;
  * }
  * */
-export interface HelloProps {
-    msg: string
-    count?: number
+
+// Globally page props provided by HandleInertiaRequests.php
+
+export type AppPageProps<T extends Record<string, unknown> = Record<string, unknown>> = T & {
+    name: string
 }
