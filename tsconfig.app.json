@@ -5,15 +5,15 @@
         "composite": true,
         "baseUrl": ".",
         "paths": {
-            "@/*": ["./resources/js/*"]
+            "@/*": [
+                "./resources/js/*"
+            ]
         },
-
         // Strictness & type checking
         "strict": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "isolatedModules": true,
-
         // Emit / module behaviour
         "noEmit": true,
         "esModuleInterop": true,
@@ -26,7 +26,6 @@
         "jsx": "preserve",
         "jsxImportSource": "vue",
         "useDefineForClassFields": true,
-
         // Types
         "types": [
             "vite/client",
